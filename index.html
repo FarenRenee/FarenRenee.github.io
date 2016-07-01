@@ -19,6 +19,12 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!--JS Charts--> 
     <script type="text/javascript" src="js/jscharts.js"></script>
+    <div id="chartcontainer">
+        <script type="text/javascript">
+	var myChart = new JSChart('chartcontainer', 'pie');
+	myChart.setDataJSON('data.json');
+	myChart.draw();
+</script>
     <!-- github calendar css -->
     <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"/>
     <!-- github acitivity css -->
